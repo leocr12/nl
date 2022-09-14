@@ -1,4 +1,4 @@
-package com.example.nanoleaftest
+package com.example.nanoleaftest.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column

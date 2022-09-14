@@ -1,4 +1,4 @@
-package com.example.nanoleaftest
+package com.example.nanoleaftest.components
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
@@ -52,7 +52,7 @@ fun NanoForm(
             }
         )
 
-        if (colourQuantity.toInt() > 0) {
+        if (colourQuantity.isNotEmpty() && colourQuantity.toInt() > 0) {
             TextField(
                 value = colours,
                 onValueChange = onColoursChange,
